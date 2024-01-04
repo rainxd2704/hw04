@@ -278,7 +278,6 @@ background-color: var(--white-color);
 /* =================HERO================= */
 
 .hero-oder {
- align-items: center;
  padding-top: 188px;
  padding-bottom: 188px;
  background-color: var(--titletext-color);
@@ -286,10 +285,12 @@ background-color: var(--white-color);
   rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)
 ),
-url('../img/17.jpg');;
+url('../img/people-office.jpg');;
  background-repeat: no-repeat;
  background-position: center;
- background-size: cover;;
+ background-size: cover;
+ max-width: 1440px;
+ margin: 0;
 }
  
 .hero-title {
